@@ -1,0 +1,5 @@
+aws sts get-caller-identity
+sudo ntpdate ntp.ubuntu.com
+sudo ntpdate pool.ntp.org
+sudo hwclock --hctosys
+hwclock -s
